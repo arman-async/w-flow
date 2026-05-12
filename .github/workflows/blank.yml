@@ -206,7 +206,7 @@ jobs:
                 -f "best[height<=480]" \
                 --yes-playlist \
                 --proxy "socks5://127.0.0.1:40000" \
-                -o "tmp_downloads/" \
+                -P "tmp_downloads/" \
                 "$URL" 2>&1)
 
               if [ -f "tmp_downloads/$FILENAME" ] && [ -s "tmp_downloads/$FILENAME" ]; then
