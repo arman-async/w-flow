@@ -8,7 +8,7 @@
 |----------|-------|
 | **File** | `playlist` |
 | **URL** | https://www.youtube.com/playlist?list=PLsKi5tY0PdoL7W0OwhohKjyG_E5-WEzq7 |
-| **Date** | 2026-05-12 00:50:43 UTC |
+| **Date** | 2026-05-12 13:51:49 UTC |
 | **Status** | **FAILED** |
 
 ---
