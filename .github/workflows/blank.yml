@@ -1,4 +1,5 @@
-name: Test
+---
+name: ⬇️  01- Down load URL
 
 on:
   workflow_dispatch:
@@ -202,7 +203,7 @@ jobs:
               echo "Attempt $attempt of $MAX_RETRIES for $FILENAME"
 
               ERROR_LOG=$(yt-dlp \
-                -f "best[height=480]" \
+                -f "best[height<=480]" \
                 --proxy "socks5://127.0.0.1:40000" \
                 -o "tmp_downloads/$FILENAME" \
                 "$URL" 2>&1)
